@@ -49,7 +49,7 @@ data <- as.matrix(data)
 log2Data <- log2(data +1) 
 ## gene filtering by OGFSC
 OGF <- OGFSC(log2Data, plot_option = 1, nBins = 60, minBinSize=100, LR_p=0.01,
-            LR_thresholds=c(0.5, 0.6, 0.7, 0.8, 0.9, 0.99, 0.999, 0.9999), TW_threshold=0.0001) 
+            alpha=c(0.5, 0.6, 0.7, 0.8, 0.9, 0.99, 0.999, 0.9999), TW_threshold=0.0001) 
 ###
 OGFSC_idx <- OGF$OGFSC_idx 
 idx_output <- OGF$idx_output
