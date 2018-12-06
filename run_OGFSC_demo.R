@@ -40,10 +40,9 @@ library(OGFSC)
 #colnames(data) <- as.matrix(cell_IDs)
 #rownames(data) <- geneList
 #data <- avereps(data,ID=rownames(data))
-#write.table(data, "Usoskin.xls",sep="\t", row.names = TRUE, col.names = TRUE)
+#write.table(data, "Usoskin.txt",sep="\t", row.names = TRUE, col.names = TRUE)
 
-
-data <- read.table("Usoskin.xls", sep="\t", header=TRUE)
+data <- read.table("Usoskin.txt", sep="\t", header=TRUE)
 data <- as.matrix(data)
 ## log transform
 log2Data <- log2(data +1) 
