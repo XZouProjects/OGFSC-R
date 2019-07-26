@@ -1,7 +1,7 @@
 warnDef<-options("warn")$warn
 warnRead<-options(warn = -1)
 
-setwd("G:/algorithms/sOGFSC/R package")
+# setwd("G:/algorithms/sOGFSC/R package")
 
 #install.packages("tsne")
 #install.packages("RColorBrewer")
