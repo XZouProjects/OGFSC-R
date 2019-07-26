@@ -4,7 +4,7 @@
 2. unzip the demo file: Odom B6.zip
 3. run the script: run_OGFSC_demo.R
 
-Input parameters and the default values
+Input parameters and the default values \n
 data - scRNA-seq data with genes vs cells
 nBins - number of bins to construct MLM model
 minBinSize - minimum bin size
