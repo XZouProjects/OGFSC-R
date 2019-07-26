@@ -1,4 +1,4 @@
-# OGFSC v2.0
+# OGFSC v2.0 to perform supervised and unsupervised gene filtering
 
 1. install the OGFSC R package: OGFSC_0.2.3.tar.gz
 2. unzip the demo file: Odom B6.zip
