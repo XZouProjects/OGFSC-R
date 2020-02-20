@@ -17,7 +17,7 @@ geneList = matrix(raw[2:dim(raw)[1], 1])
  
 # parameter list
 # data = data
-# nBins = 20
+# nBins = 60
 # minBinSize = 100
 # LR_p = 0.01
 # alpha = c(0.5, 0.6, 0.7, 0.8, 0.9, 0.99, 0.999, 0.9999)
