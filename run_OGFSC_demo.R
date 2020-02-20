@@ -32,12 +32,12 @@ geneList = matrix(raw[2:dim(raw)[1], 1])
 
 
 
-## supervised OGFSC
+## supervised OGFSC (unpublished)
 
 sOGF = OGFSC(data, sampelLabels = sampelLabels, nBins = 60, paral_option = 1, plot_option = 1)
 sOGFSC_idx = sOGF$OGFSC_idx
 
-## unupervised OGFSC
+## unsupervised OGFSC (Bioinformatics 2019)
 OGF = OGFSC(data, plot_option = 1) 
 OGFSC_idx = OGF$OGFSC_idx 
 
