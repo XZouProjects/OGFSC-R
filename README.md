@@ -1,4 +1,5 @@
-https://github.com/XZouProjects/OGFSC-R/blob/master/ogfsc.png
+![ogfsc](https://user-images.githubusercontent.com/17633478/171782071-4dc9756e-accb-4cc4-aaed-ac6c48ea34d8.png)
+
 
 # OGFSC v2.0 to perform supervised and unsupervised gene filtering
 
