@@ -1,3 +1,5 @@
+https://github.com/XZouProjects/OGFSC-R/blob/master/ogfsc.png
+
 # OGFSC v2.0 to perform supervised and unsupervised gene filtering
 
 1. install the OGFSC R package: OGFSC_0.2.3.tar.gz
